@@ -1,0 +1,49 @@
+@media (min-width: 48rem)  {
+	.wrapper-img {
+		width: 48rem;
+		height: 43.75rem;
+		background-image: url('images/tablet.jpg'); 
+		}
+	.wrapper-img:before {
+		content: "";
+		position:absolute;
+		width: 48rem;
+		height: 43.75rem;
+		background: rgba(0,0,0,0.2);
+	}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+		line-height: 5;
+		height: 7rem;
+		padding: 0rem 3rem;
+		margin-bottom: 6rem;
+	}
+	.title-1 {
+		margin: auto;
+		display: block;
+		width: 25rem;
+		line-height: 1.5;
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+	}
+	.second-title {
+		margin-bottom: 2.2rem;
+	}
+	.wrapper-white {
+		width: 48rem;
+	}
+
+	.list-partner {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 1rem;
+	}
+	.partner {
+		width: 40%;
+	}
+	
+}
